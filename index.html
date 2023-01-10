@@ -11,11 +11,53 @@
 <body>
 
 <header>
-
+    <a class="logo" href="index.html"><img src="images/logo/DM%20White.png" class="img-responsive" alt="logo"></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </nav>
+    <a class="cta" href="#">Log In</a>
+    <p class="menu cta">Menu</p>
 </header>
 
+<div id="mobile__menu" class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+        <a href="#about-me">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </div>
+</div>
 
 <section class="Opener" id="opener">
+
+    <!--Have picture of me walking along a tree in mexico-->
+
+    <!--Above me say "Hey, Im Dylan"-->
+    <!--Below me have animation flicking between "Im a "Software Engineer, Data Engineer, AI, Fitness Enthusiast, Educator"-->
+    <div class="section">
+        <div class="div-grid-wrapper">
+            <div class="opener-text">
+                <p>   </p>
+                <p class="name">Hey I'm Dylan! &#128075</p>
+                <p>   </p>
+                <p>I am a recent graduate of MEng Computer Science with Artificial Intelligence from The University of Southampton. </p>
+                <p>   </p>
+                <p>Browsing this website you can find out about my education, academic projects, work experience, personal projects, and blog! </p>
+                <p>   </p>
+            </div>
+            <div class="opener-img">
+                <img class="tree" src="images/Site%20Photos/Jungle_Gym_square.jpg" alt="Me at Tulum Jungle Gym in Mexico!">
+            </div>
+        </div>
+    </div>
 </section>
 
 <!--Likely not needed as first section could mitigate this one-->
@@ -25,6 +67,30 @@
     </div>
 </section>
 
+<!--List some uni modules, some projects and some skills/technologies I use and have used-->
+<!--Link to new webpage where projects are talked about in more detail        -->
+<section class="Experience" id="experience">
+    <div class="section">
+        <p>Experience</p>
+    </div>
+</section>
+
+<!--Embed live cv for users to look at and can download       -->
+<section class="CV" id="cv">
+    <div class="section">
+        <p>CV</p>
+        <p>Embed Live CV and download button</p>
+    </div>
+</section>
+
+<!--Quick contact form, name;email;phone; leave a message and submit        -->
+<section class="Blog" id="blog">
+    <div class="section">
+        <p>Blog</p>
+        <p>Check out my Health and Fitness blog here:</p>
+        <p>INCLUDE LINKS TO SOME IMPORTANT POSTS</p>
+    </div>
+</section>
 
 <!--Quick contact form, name;email;phone; leave a message and submit        -->
 <section class="Contact" id="contact">
@@ -32,6 +98,7 @@
         <p>Contact</p>
     </div>
 </section>
+
 
 
 <!--LinkedIn, Github, Email-->
@@ -42,5 +109,9 @@
 </footer>
 
 
+
+
+<script src="js/mobile.js"></script>
+<script src="js/scroll.js"></script>
 </body>
 </html>

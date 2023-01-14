@@ -12,6 +12,11 @@ body {
     padding: 0;
 }
 
+header {
+    position: sticky;
+    
+}
+
 .logo {
     margin-right: auto;
 }

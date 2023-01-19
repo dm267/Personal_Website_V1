@@ -46,6 +46,11 @@ header.small {
     max-height: 50px;
 }
 
+.section
+{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
 p {
     font-family: "Montserrat", sans-serif;
     margin: 2% 5% 2% 5%;

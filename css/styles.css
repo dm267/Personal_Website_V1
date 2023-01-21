@@ -16,9 +16,6 @@ header {
     position: sticky;
 
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 
     height: 20%;
     width: 100%;
@@ -60,5 +57,19 @@ p {
 .nav-links {
     list-style: none;
     display: flex;
+}
+
+.nav-links a,
+.cta {
+    /*FONT SETTINGS*/
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    /*FORMAT SETTINGS*/
+    padding: 1px;
+
+    color: #edf0f1;
+    text-decoration: none;
 }
 

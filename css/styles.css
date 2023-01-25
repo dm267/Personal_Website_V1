@@ -1,3 +1,15 @@
+/*Random notes*/
+
+/*   REM    */
+/*Alternatively, you could use the rem unit instead of px */
+/*which is relative to the root font-size of the document.*/
+
+/*   INTRO TO CSS LAYOUT   */
+/*https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction*/
+/*   CSS LAYOUT CNTD.   */
+/*https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout*/
+
+
 * { /* All elements (universal selector) */
     /* Websites explaining "box-sizing" with visual elements */
     /* https://css-tricks.com/box-sizing/ */

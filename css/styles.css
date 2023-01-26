@@ -45,6 +45,9 @@ header.small {
 
 .logo {
     margin-right: auto;
+    border-radius: 8px;
+    /*!*border-radius: 50%;*! Turns background into a circle*/
+    transition: box-shadow 1s;
 }
 
 .logo-responsive

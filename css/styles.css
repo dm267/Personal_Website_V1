@@ -35,6 +35,8 @@ header {
     /*Found a cool website demonstrating css flexbox rules*/
     /*https://flexbox.help/*/
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
     background-color: #333;
     z-index: 1;

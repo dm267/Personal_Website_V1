@@ -37,6 +37,7 @@ header {
     display: flex;
 
     background-color: #333;
+    z-index: 1;
 }
 header.small {
     height: 4%; /*maybe change to fixed size? 60px*/

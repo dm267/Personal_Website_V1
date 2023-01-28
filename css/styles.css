@@ -66,6 +66,12 @@ header.small {
 .section
 {
     min-width: 100%;
+    max-width: 100%;
+    width: inherit;
+
+    min-height: 750px;
+    /*max-height: 500px;*/
+
     background-color: rgba(0, 136, 169, 0.8);
 }
 

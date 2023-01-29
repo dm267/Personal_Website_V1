@@ -72,6 +72,10 @@ header.small {
     min-height: 750px;
     /*max-height: 500px;*/
 
+    display: inline-block;
+    justify-content: space-between;
+    align-items: normal;
+
     background-color: rgba(0, 136, 169, 0.8);
 }
 

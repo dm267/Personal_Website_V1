@@ -46,6 +46,11 @@ header.small {
     transition: height 0.5s;
 }
 
+section {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .logo {
     margin-right: auto;
     border-radius: 8px;
